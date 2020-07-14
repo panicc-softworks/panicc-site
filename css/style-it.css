@@ -20497,7 +20497,7 @@ section .waves-bottom {
   filter: blur(10px) contrast(20);
 }
 
-.blob-1, .blob-2 {
+/* .blob-1, .blob-2 {
   width: 70px;
   height: 70px;
   position: absolute;
@@ -20517,7 +20517,7 @@ section .waves-bottom {
   left: 80%;
   animation: osc-r 2.5s ease infinite;
   background: #2b88ef;
-}
+} */
 
 @keyframes osc-l {
   0% {
