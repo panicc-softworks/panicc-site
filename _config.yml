@@ -1,3 +1,4 @@
 permalink: pretty
 markdown: kramdown
 production_url : https://paniccsoftworks.com
+theme: null
