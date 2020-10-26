@@ -1,2 +1,5 @@
 permalink: pretty
-theme: jekyll-theme-cayman
+markdown: kramdown
+production_url : https://paniccsoftworks.com
+theme: null
+include: [_includes]
