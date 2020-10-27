@@ -10594,7 +10594,7 @@ input[type="button"].btn-block {
   }
 }
 /* 992 */
-@media (min-width: 1265px) {
+@media (min-width: 992px) {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
@@ -11717,7 +11717,7 @@ input[type="button"].btn-block {
   }
 }
 /* 992 */
-@media (min-width: 1265px) {
+@media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -20573,8 +20573,8 @@ section .waves-bottom {
     font-size: 0.8rem;
   }
 }
-
-@media (max-width: 992px) {
+/* 992 */
+@media (max-width: 1265px) {
   nav.navbar-light ul.navbar-nav li a.nav-link {
     padding: 0.5rem 0rem;
   }
