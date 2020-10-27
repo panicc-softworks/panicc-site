@@ -11717,7 +11717,7 @@ input[type="button"].btn-block {
   }
 }
 /* 992 */
-@media (min-width: 1265px) {
+@media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -11742,6 +11742,13 @@ input[type="button"].btn-block {
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
+  }
+}
+
+@media (min-width: 1265px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
   }
 }
 
@@ -20574,7 +20581,7 @@ section .waves-bottom {
   }
 }
 /* 992 */
-@media (max-width: 1265px) {
+@media (max-width: 992px) {
   nav.navbar-light ul.navbar-nav li a.nav-link {
     padding: 0.5rem 0rem;
   }
