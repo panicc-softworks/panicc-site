@@ -38,6 +38,12 @@
               </div>
             </div>
             <!-- Contact Form -->
+            <style>
+              .grecaptcha-badge {
+              display: none;
+              }
+              </style>
+
             <div class="offset-lg-1 col-lg-6">
               <h2 class="hide">Contact</h2>
               <form action="https://usebasin.com/f/8dc5cdd5aeea" method="POST" id="my-contact-form">
@@ -53,7 +59,10 @@
                 <div class="form-group">
                   <textarea placeholder="Message*" class="form-control" id="FormControlTextarea1" rows="5" style="resize: none;" name="message" required></textarea>
                 </div>
+                <div>
+                <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
                 <button type="submit" class="btn btn-primary btn-large">Submit</button>
+                </div>
                 <div id="form-message"></div>
               </form>
             </div>
@@ -86,4 +95,6 @@
     document.getElementById("my-contact-form").reset();
     };
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </html>
