@@ -40,3 +40,4 @@ Thumbs.db
 _site
 gemfile
 gemfile.lock
+.jekyll-cache
