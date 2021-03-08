@@ -29,7 +29,15 @@
               perfomance web and mobile apps. Transform and boost your business through
               the power of creativity.
             </p>
-            <a href="#services" class="btn btn-gradient btn-large">Explore More</a>
+            <a href="#services" id="smoothbtn" class="btn btn-gradient btn-large">Explore More</a>
+            <script>
+               $("[href^='#']").click(function() {
+        id=$(this).attr("href")
+        $('html, body').animate({
+            scrollTop: $(id).offset().top
+        }, 2000);
+    });
+              </script>
           </div>
           <div class="col-4">
             <div class="hero-splash d-none d-xl-block">
