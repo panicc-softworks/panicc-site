@@ -729,13 +729,6 @@
  	jQuery('html, body').animate({scrollTop: 0}, 610);
  })
 
-
- $("[href^='#']").click(function() {
-	id=$(this).attr("href")
-	$('html, body').animate({
-	 scrollTop: $(id).offset().top
-	}, 2000);
-	});
  // Pricing switcher
 
  if ( $( ".toggler" ).hasClass( "toggler--is-active" ) ) {
