@@ -5,10 +5,10 @@
 
 		// AOS Effects
 
-		AOS.init({
-		  startEvent: 'load',
-			once: true
-		});
+		// AOS.init({
+		//   startEvent: 'load',
+		// 	once: true
+		// });
 		
 		// Landing page navigation toggle button
 

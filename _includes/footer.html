@@ -97,6 +97,11 @@ $('html, body').animate({
 }, 2000);
 });
    </script> -->
-   <script>window.addEventListener('load', function() {
+   <script>
+   AOS.init({
+		  startEvent: 'load',
+			once: true
+		});
+   window.addEventListener('load', function() {
     AOS.refresh();
   });</script>
