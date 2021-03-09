@@ -9,6 +9,9 @@
 		  startEvent: 'load',
 			once: true
 		});
+		window.addEventListener('load', function() {
+			AOS.refresh();
+		  });
 
 		// Landing page navigation toggle button
 
